@@ -1,0 +1,6 @@
+Model: PatchClassifier v2.1
+Input normalization: [0, 1]
+Patch size: 32x32
+Placement: top-left corner (0, 0)
+Unlock condition: argmax == 42
+Confidence threshold: standard (0.5)
