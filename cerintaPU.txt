@@ -1,0 +1,11 @@
+You have been given access to a neural network classifier and its verifier. The model classifies 64×64 RGB images into 50 classes. There is a secret unlock condition: make it output class 42, at exactly the right confidence level.
+
+You are given two files:
+
+patch_classifier.pt model.py TECH_NOTES.txt
+
+Craft a 32×32 RGB PNG patch. When the verifier pastes your patch onto a test image and runs the model, it must predict class 42 with confidence inside a hidden band. The verifier will tell you whether you succeeded.
+
+Flag format:
+
+CTF{...}
