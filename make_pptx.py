@@ -125,22 +125,22 @@ tf = txBox.text_frame; tf.word_wrap = True
 
 add_para(tf, "🎯  Curiozitate mai mare decât frica de eșec",
          font_size=22, bold=True, color=ACCENT)
-add_para(tf, "Am vazut 'AI & ML' in titlu si pur si simplu n-am putut sa dam pass.",
+add_para(tf, "Ne-am inscris de cum am vazut subiectele. Nu era nevoie de mai multa deliberare.",
          font_size=18, color=GRAY, space_before=2)
 
 add_para(tf, "", font_size=10)
 
 add_para(tf, "⚡  Provocarea concretă",
          font_size=22, bold=True, color=ACCENT2)
-add_para(tf, "Probleme cu rețele neurale, clasificatoare de imagini, atacuri adversariale —\n"
-             "exact genul de lucruri pe care le citești în papers și vrei să le atingi cu mâna.",
+add_para(tf, "Retele neurale, clasificatoare de imagini, atacuri adversariale —\n"
+             "subiecte studiate teoretic, acum de rezolvat practic, in timp limitat.",
          font_size=18, color=GRAY, space_before=2)
 
 add_para(tf, "", font_size=10)
 
-add_para(tf, "🕐  Managementul timpului ca skill real",
+add_para(tf, "🕐  O lectie despre gestionarea timpului",
          font_size=22, bold=True, color=YELLOW)
-add_para(tf, "Știam că va fi intens. Voiam să vedem cât de bine ne descurcăm sub presiune.",
+add_para(tf, "Stiam ca va fi intens. Am vrut sa vedem cum ne descurcam cand timpul e limitat cu adevarat.",
          font_size=18, color=GRAY, space_before=2)
 
 # ════════════════════════════════════════════════════════════════════════
@@ -316,14 +316,14 @@ add_rect(s, 0.55, 1.28, 12, 0.04, RGBColor(0x2A,0x3A,0x5A))
 
 discoveries = [
     (ACCENT,  "Adversarial ML",
-     "Un patch mic de 32×32 poate complet păcăli un clasificator de 50 de clase.\n"
-     "Modelele nu 'văd' cum vedem noi — asta e fascinant și îngrijorător în același timp."),
+     "Un patch mic de 32x32 este suficient pentru a pacali un clasificator de 50 de clase.\n"
+     "Modelele nu percep imaginile asa cum o facem noi — si asta are consecinte reale."),
     (ACCENT2, "Security ↔ ML",
      "Atacurile adversariale sunt un domeniu de cercetare activ, direct legat de\n"
      "siguranța sistemelor AI din producție. Nu e doar teorie."),
     (YELLOW,  "Domeniul preferat",
-     "Computer Vision + Security a fost preferata — faptul că poți 'ataca' rețele\n"
-     "neurale cu imagini pare magie neagră la prima vedere."),
+     "Computer Vision combinat cu Security a fost cel mai interesant pentru noi —\n"
+     "un domeniu activ de cercetare, cu aplicatii directe in sisteme reale."),
 ]
 
 for i, (col, title, body) in enumerate(discoveries):
@@ -343,13 +343,13 @@ add_text(s, "Ce ne-a învățat hackathonul cu adevărat", 0.55, 0.25, 12, 0.9,
          font_size=32, bold=True)
 add_rect(s, 0.55, 1.28, 12, 0.04, RGBColor(0x2A,0x3A,0x5A))
 
-add_text(s, "(spoiler: nu e despre ML)",
+add_text(s, "Lectii care raman dupa ce uiti codul",
          0.55, 1.35, 12, 0.5, font_size=17, color=GRAY, italic=True)
 
 lessons = [
-    ("🕐", ACCENT,  "Timpul e finit",      "Prima oră: explorezi. Ora 2+: construiești. Știi când să oprești rabbit holes."),
-    ("🎯", ACCENT2, "Focus > Perfecțiune",  "Un submit mediocru acum bate un submit perfect mâine. Feedback rapid contează."),
-    ("👥", YELLOW,  "Comunicarea salvează", "Dacă doi oameni lucrează pe același lucru fără să știe → dublu timp pierdut."),
+    ("🕐", ACCENT,  "Timpul e finit",      "Prima ora: intelegi problema. De la ora 2: construiesti. Fiecare deraiere costa timp real."),
+    ("🎯", ACCENT2, "Focus inainte de perfectiune",  "O solutie functionala acum este mai valoroasa decat una perfecta prea tarziu."),
+    ("👥", YELLOW,  "Comunicarea conteaza", "Doi oameni care lucreaza pe acelasi lucru fara sa stie inseamna timp dublat pierdut."),
     ("🔄", WHITE,   "Iterații mici",        "Schimbă un singur lucru odată. Altfel nu știi ce a rezolvat problema."),
 ]
 
