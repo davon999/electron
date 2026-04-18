@@ -1,0 +1,14 @@
+{
+  "window_size": 50,
+  "n_axes": 3,
+  "n_classes": 5,
+  "classes": {
+    "0": "SHAKE",
+    "1": "ROTATE",
+    "2": "LEFT",
+    "3": "RIGHT",
+    "4": "TAP"
+  },
+  "normalization": "per_sample_zscore",
+  "val_balanced_accuracy": 1.0
+}
